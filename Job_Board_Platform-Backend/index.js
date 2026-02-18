@@ -21,7 +21,7 @@ let allowedOrigins = [];
 if (process.env.ENVIRONMENT === 'development') {
   allowedOrigins = [`http://localhost:5174`];
 } else if (process.env.ENVIRONMENT === 'production') {
-  allowedOrigins = [`https://job-board-platform-frontend-nine.vercel.app`];
+  allowedOrigins = [`https://job-portal-h322.vercel.app`];
 }
 
 app.use(cors({
